@@ -25,7 +25,7 @@ public class NewMain {
             chien chien = new chien(6 ,"Vylo","malin","noire");
             System.out.println(chien.Tkwa());
         }
-        if ("chat".equals(varchoix)){
+        else if ("chat".equals(varchoix)){
         chat chat = new chat(3 ,"Zigzag","fainéant","blanche");
         System.out.println(chat.Tkwa());
         }else{
